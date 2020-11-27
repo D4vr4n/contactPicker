@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07BEA837DC83DEC178FEF6CA /* Pods_contactPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C15971D0E87F943A9767C2 /* Pods_contactPicker.framework */; };
 		AF6F8C76256CDACE0024392E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6F8C75256CDACE0024392E /* AppDelegate.swift */; };
 		AF6F8C78256CDACE0024392E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6F8C77256CDACE0024392E /* SceneDelegate.swift */; };
 		AF6F8C7A256CDACE0024392E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6F8C79256CDACE0024392E /* ViewController.swift */; };
 		AF6F8C7D256CDACE0024392E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6F8C7B256CDACE0024392E /* Main.storyboard */; };
 		AF6F8C7F256CDAD30024392E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF6F8C7E256CDAD30024392E /* Assets.xcassets */; };
 		AF6F8C82256CDAD30024392E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6F8C80256CDAD30024392E /* LaunchScreen.storyboard */; };
+		AF7F16E1256EA37700C05A4A /* ContactListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7F16E0256EA37700C05A4A /* ContactListItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0092CA9383BCFDDFBA229167 /* Pods-contactPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-contactPicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-contactPicker/Pods-contactPicker.release.xcconfig"; sourceTree = "<group>"; };
+		38C15971D0E87F943A9767C2 /* Pods_contactPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_contactPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73CD02B57BB5048324078F12 /* Pods-contactPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-contactPicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-contactPicker/Pods-contactPicker.debug.xcconfig"; sourceTree = "<group>"; };
 		AF6F8C72256CDACE0024392E /* contactPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = contactPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF6F8C75256CDACE0024392E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF6F8C77256CDACE0024392E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		AF6F8C7E256CDAD30024392E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF6F8C81256CDAD30024392E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF6F8C83256CDAD30024392E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF7F16E0256EA37700C05A4A /* ContactListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07BEA837DC83DEC178FEF6CA /* Pods_contactPicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B16450AABEA439F9CDFF33A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38C15971D0E87F943A9767C2 /* Pods_contactPicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AF6F8C69256CDACE0024392E = {
 			isa = PBXGroup;
 			children = (
 				AF6F8C74256CDACE0024392E /* contactPicker */,
 				AF6F8C73256CDACE0024392E /* Products */,
+				ED369F24CB2E45B2DAAA0E18 /* Pods */,
+				6B16450AABEA439F9CDFF33A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +76,22 @@
 				AF6F8C75256CDACE0024392E /* AppDelegate.swift */,
 				AF6F8C77256CDACE0024392E /* SceneDelegate.swift */,
 				AF6F8C79256CDACE0024392E /* ViewController.swift */,
+				AF7F16E0256EA37700C05A4A /* ContactListItem.swift */,
 				AF6F8C7B256CDACE0024392E /* Main.storyboard */,
 				AF6F8C7E256CDAD30024392E /* Assets.xcassets */,
 				AF6F8C80256CDAD30024392E /* LaunchScreen.storyboard */,
 				AF6F8C83256CDAD30024392E /* Info.plist */,
 			);
 			path = contactPicker;
+			sourceTree = "<group>";
+		};
+		ED369F24CB2E45B2DAAA0E18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73CD02B57BB5048324078F12 /* Pods-contactPicker.debug.xcconfig */,
+				0092CA9383BCFDDFBA229167 /* Pods-contactPicker.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF6F8C86256CDAD30024392E /* Build configuration list for PBXNativeTarget "contactPicker" */;
 			buildPhases = (
+				B07B74936E4EFE1E7BF2DBF0 /* [CP] Check Pods Manifest.lock */,
 				AF6F8C6E256CDACE0024392E /* Sources */,
 				AF6F8C6F256CDACE0024392E /* Frameworks */,
 				AF6F8C70256CDACE0024392E /* Resources */,
+				C36863820BC70C2EB82C4480 /* [CP] Embed Pods Frameworks */,
+				020D251C65105E0F343EC6E2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,6 +162,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		020D251C65105E0F343EC6E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-contactPicker/Pods-contactPicker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B07B74936E4EFE1E7BF2DBF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-contactPicker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C36863820BC70C2EB82C4480 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-contactPicker/Pods-contactPicker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-contactPicker/Pods-contactPicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AF6F8C6E256CDACE0024392E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,6 +238,7 @@
 				AF6F8C7A256CDACE0024392E /* ViewController.swift in Sources */,
 				AF6F8C76256CDACE0024392E /* AppDelegate.swift in Sources */,
 				AF6F8C78256CDACE0024392E /* SceneDelegate.swift in Sources */,
+				AF7F16E1256EA37700C05A4A /* ContactListItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +382,7 @@
 		};
 		AF6F8C87256CDAD30024392E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73CD02B57BB5048324078F12 /* Pods-contactPicker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +401,7 @@
 		};
 		AF6F8C88256CDAD30024392E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0092CA9383BCFDDFBA229167 /* Pods-contactPicker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
